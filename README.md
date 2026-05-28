@@ -39,7 +39,7 @@ pkg> add ClassicalTestTheory
 ### 1. Basic Item Analysis and Reliability
 
 ```julia
-using CTT
+using ClassicalTestTheory
 
 # Prepare a response matrix (Rows = Subjects, Columns = Items)
 responses = [
