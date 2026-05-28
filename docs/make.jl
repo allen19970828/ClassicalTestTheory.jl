@@ -11,9 +11,9 @@ makedocs(
         "Home" => "index.md",
         "API Reference" => "api.md"
     ],
-    remotes = nothing
 )
 
-# deploydocs(
-#     repo = "github.com/USERNAME/CTT.jl.git",
-# )
+deploydocs(
+    repo = "github.com/allen19970828/CTT.jl.git",
+    devbranch = "main"
+)
