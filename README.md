@@ -1,4 +1,4 @@
-# CTT.jl
+# ClassicalTestTheory.jl
 
 A high-performance, robust, and modern Julia package for **Classical Test Theory (CTT)** and **Psychometrics**. 
 
