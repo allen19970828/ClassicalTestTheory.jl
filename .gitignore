@@ -1,0 +1,14 @@
+# Files created by Julia
+*.jl.cov
+*.jl.mem
+*.jl.tmp
+
+# Files created by Documenter.jl
+docs/build/
+docs/site/
+
+# User-specific files
+/Manifest.toml
+
+# OS-specific files
+.DS_Store

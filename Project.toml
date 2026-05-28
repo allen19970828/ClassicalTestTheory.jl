@@ -1,0 +1,23 @@
+name = "CTT"
+uuid = "822ce937-a5cd-4c3e-9cd1-6f095251f3ee"
+version = "0.1.0"
+authors = ["allen19970828 <122233643+allen19970828@users.noreply.github.com>"]
+
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+FactorRotations = "be5e9834-f3d9-4b7e-b5ea-d062861d4ac2"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "1"
+Distributions = "0.25.125"
+FactorRotations = "0.5.2"
+LinearAlgebra = "1.12.0"
+Optim = "2.0.1"
+QuadGK = "2.11.3"
+Statistics = "1.11.1"
+Test = "1.11.0"
