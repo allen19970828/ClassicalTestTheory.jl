@@ -6,7 +6,7 @@ Inspired by the widely used R packages `CTT` and `psych`, `CTT.jl` provides an e
 
 ## Installation
 
-You can install `CTT.jl` from the Julia REPL. Press `]` to enter the Pkg REPL mode and run:
+You can install `ClassicalTestTheory.jl` from the Julia REPL. Press `]` to enter the Pkg REPL mode and run:
 
 ```julia
 pkg> add CTT
