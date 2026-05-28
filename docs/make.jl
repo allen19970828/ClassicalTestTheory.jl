@@ -1,12 +1,12 @@
 using Documenter
-using CTT
+using ClassicalTestTheory
 
 makedocs(
-    sitename = "CTT.jl",
+    sitename = "ClassicalTestTheory.jl",
     format = Documenter.HTML(
         prettyurls = get(ENV, "CI", nothing) == "true"
     ),
-    modules = [CTT],
+    modules = [ClassicalTestTheory],
     pages = [
         "Home" => "index.md",
         "API Reference" => "api.md"
@@ -14,6 +14,6 @@ makedocs(
 )
 
 deploydocs(
-    repo = "github.com/allen19970828/CTT.jl.git",
+    repo = "github.com/allen19970828/ClassicalTestTheory.jl.git",
     devbranch = "main"
 )

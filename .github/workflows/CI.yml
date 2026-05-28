@@ -69,6 +69,6 @@ jobs:
         shell: julia --project=docs {0}
         run: |
           using Documenter: DocMeta, doctest
-          using CTT
-          DocMeta.setdocmeta!(CTT, :DocTestSetup, :(using CTT); recursive=true)
-          doctest(CTT)
+          using ClassicalTestTheory
+          DocMeta.setdocmeta!(ClassicalTestTheory, :DocTestSetup, :(using ClassicalTestTheory); recursive=true)
+          doctest(ClassicalTestTheory)

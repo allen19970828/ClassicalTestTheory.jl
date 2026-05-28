@@ -1,15 +1,15 @@
-# CTT.jl
+# ClassicalTestTheory.jl
 
 這是一個基於 Julia 語言開發，專為**古典測驗理論 (Classical Test Theory, CTT)** 與**心理計量學 (Psychometrics)** 設計的高效能、現代化套件。
 
-受到 R 語言中廣受歡迎的 `CTT` 與 `psych` 套件啟發，`CTT.jl` 提供了一套完整且嚴謹的分析工具，涵蓋了項目分析、信度與效度檢定、進階相關係數 (如 Polychoric)，以及探索性因素分析 (EFA)。本套件特別針對真實世界中不完美的資料進行了優化，內建成對刪除 (Pairwise Deletion) 與相關矩陣平滑化 (Matrix Smoothing) 等安全防護機制。
+受到 R 語言中廣受歡迎的 `CTT` 與 `psych` 套件啟發，`ClassicalTestTheory.jl` 提供了一套完整且嚴謹的分析工具，涵蓋了項目分析、信度與效度檢定、進階相關係數 (如 Polychoric)，以及探索性因素分析 (EFA)。本套件特別針對真實世界中不完美的資料進行了優化，內建成對刪除 (Pairwise Deletion) 與相關矩陣平滑化 (Matrix Smoothing) 等安全防護機制。
 
 ## 安裝方式
 
-您可以在 Julia 的 REPL 中安裝 `CTT.jl`。按下 `]` 進入 Pkg 模式後輸入：
+您可以在 Julia 的 REPL 中安裝 `ClassicalTestTheory.jl`。按下 `]` 進入 Pkg 模式後輸入：
 
 ```julia
-pkg> add CTT
+pkg> add ClassicalTestTheory
 ```
 
 *(註：若套件尚未註冊至官方，您可能需要透過 GitHub 網址來安裝。)*
@@ -46,7 +46,7 @@ pkg> add CTT
 ### 1. 基礎項目分析與信度
 
 ```julia
-using CTT
+using ClassicalTestTheory
 
 # 準備受試者反應矩陣 (列 = 受試者，欄 = 題目)
 responses = [
@@ -104,7 +104,7 @@ println(efa_res.communality)
 
 ## 型別支援
 
-`CTT.jl` 中的函數皆接受 `AbstractMatrix` 作為輸入，這意味著它能無縫接軌 `Matrix{Float64}`, `Matrix{Int}`，或者是含有遺漏值的 `Matrix{Union{Missing, Float64}}` 型別矩陣。
+`ClassicalTestTheory.jl` 中的函數皆接受 `AbstractMatrix` 作為輸入，這意味著它能無縫接軌 `Matrix{Float64}`, `Matrix{Int}`，或者是含有遺漏值的 `Matrix{Union{Missing, Float64}}` 型別矩陣。
 
 ## 授權
 

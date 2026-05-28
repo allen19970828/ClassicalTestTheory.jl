@@ -1,8 +1,8 @@
 using Test
-using CTT
+using ClassicalTestTheory
 using Statistics
 
-@testset "CTT.jl" begin
+@testset "ClassicalTestTheory.jl" begin
     @testset "Reliability" begin
         X = [1 1 0;
              1 0 1;

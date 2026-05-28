@@ -1,4 +1,4 @@
-module CTT
+module ClassicalTestTheory
 
 using Statistics
 using LinearAlgebra

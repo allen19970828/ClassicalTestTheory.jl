@@ -2,7 +2,7 @@
 
 julia_version = "1.12.5"
 manifest_format = "2.0"
-project_hash = "5d42897de936ef26f5bbae8da51e4a430e54e8df"
+project_hash = "967671300920cea0ee0e09482be3121ca715a67d"
 
 [[deps.ADTypes]]
 git-tree-sha1 = "bbc22a9a08a0ef6460041086d8a7b27940ed4ffd"
@@ -153,8 +153,8 @@ git-tree-sha1 = "aebf55e6d7795e02ca500a689d326ac979aaf89e"
 uuid = "9718e550-a3fa-408a-8086-8db961cd8217"
 version = "0.1.1"
 
-[[deps.CTT]]
-deps = ["Distributions", "FactorRotations", "LinearAlgebra", "Optim", "QuadGK", "Statistics", "Test"]
+[[deps.ClassicalTestTheory]]
+deps = ["Distributions", "FactorRotations", "LinearAlgebra", "Optim", "QuadGK", "Statistics"]
 path = ".."
 uuid = "822ce937-a5cd-4c3e-9cd1-6f095251f3ee"
 version = "0.1.0"

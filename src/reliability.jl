@@ -45,7 +45,7 @@ function split_half(X::AbstractMatrix)
     r = cor(odd_scores, even_scores)
     # 使用 Spearman-Brown 公式校正 (n=2)
     # 由於我們沒有在 reliability.jl 引入 scoring.jl 的 spearman_brown，
-    # 這裡直接實作或是透過 CTT 模組調用。為避免循環依賴，直接寫公式：
+    # 這裡直接實作或是透過 ClassicalTestTheory 模組調用。為避免循環依賴，直接寫公式：
     return (2 * r) / (1 + r)
 end
 

@@ -2,7 +2,7 @@
 
 A high-performance, robust, and modern Julia package for **Classical Test Theory (CTT)** and **Psychometrics**. 
 
-Inspired by the widely used R packages `CTT` and `psych`, `CTT.jl` provides an extensive suite of tools for item analysis, reliability and validity estimation, advanced correlations (e.g., polychoric), and exploratory factor analysis (EFA). Designed with real-world data in mind, it safely handles missing values through pairwise deletion and correlation matrix smoothing.
+Inspired by the widely used R packages `CTT` and `psych`, `ClassicalTestTheory.jl` provides an extensive suite of tools for item analysis, reliability and validity estimation, advanced correlations (e.g., polychoric), and exploratory factor analysis (EFA). Designed with real-world data in mind, it safely handles missing values through pairwise deletion and correlation matrix smoothing.
 
 ## Installation
 
@@ -97,7 +97,7 @@ println(efa_res.communality)
 
 ## Supported Types
 
-Functions in `CTT.jl` accept `AbstractMatrix` inputs, meaning they seamlessly support matrices of type `Matrix{Float64}`, `Matrix{Int}`, or arrays containing missing values like `Matrix{Union{Missing, Float64}}`.
+Functions in `ClassicalTestTheory.jl` accept `AbstractMatrix` inputs, meaning they seamlessly support matrices of type `Matrix{Float64}`, `Matrix{Int}`, or arrays containing missing values like `Matrix{Union{Missing, Float64}}`.
 
 ## License
 

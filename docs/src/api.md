@@ -1,7 +1,7 @@
 # API Reference
 
 ```@meta
-CurrentModule = CTT
+CurrentModule = ClassicalTestTheory
 ```
 
 ## Data Types
